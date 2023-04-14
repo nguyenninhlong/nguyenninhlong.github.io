@@ -142,31 +142,9 @@ header{
 #newsletter,#showcase, header a{
   font-family: cursive;
 }
-aside#sidebar{
-  width: 500px;
-  margin-top: 10px;
-  text-align: left;
- }
- aside#sidebar{
-  float: right; 
-  padding: 60px;
-  margin-top: -40px;
-  width: 350px;
-  
-  
-}
 
-aside#sidebar .quote input, aside#sidebar .quote textarea{
-  width: 270px;
-  
-}
 
-/* Main-col */
-article#main-col{
-width: 60%;
-display: inline-block;
 
-}
   footer{
     padding:20px;
     margin-top:20px;
