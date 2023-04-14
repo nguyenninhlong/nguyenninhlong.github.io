@@ -78,35 +78,48 @@ function clearStatusClass(element) {
 //**Câu hỏi */
 const questions = [
   {
-    question: 'Mona Lisa có thật hay không ?',
+    question: 'Tương lai của Nhật Bản được quyết định như thế nào theo Hội nghị Ianta (2-1945)?',
     answers: [
-      { text: 'Có', correct: true },
-      { text: 'Không', correct: false }
+      { text: 'Nhật Bản bị quân đội Mĩ chiếm đóng', correct: true },
+      { text: 'Nhật Bản vẫn giữ nguyên trạng.', correct: false },
+       { text: 'Nhật Bản trở thành thuộc địa kiểu mới của Mĩ.', correct: false },
+       { text: 'Quân đội Liên Xô chiếm 4 đảo thuộc quần đảo Curin của Nhật Bản.', correct: false }
+    ]
+  },
+    {
+    question: 'Theo quy định của Hội nghị Ianta (2-1945), quốc gia nào sẽ thực hiện nhiệm vụ chiếm đóng, giải giáp miền Tây Đức, Tây Béc-lin và các nước Tây Âu?',
+    answers: [
+      { text: 'Mỹ, Anh, Pháp', correct: true },
+      { text: 'Mỹ', correct: false },
+       { text: 'Anh', correct: false },
+       { text: 'Liên Xô', correct: false }
     ]
   },
   {
-    question: 'Đâu là quê hương của Bác Hồ ?',
+    question: 'Theo quyết định của hội nghị Ianta (2-1945), quốc gia nào cần phải trở thành một quốc gia thống nhất và dân chủ?',
     answers: [
-      { text: 'Kim Liên,Nam Đàn,Nghệ An', correct:true  },
-      { text: 'Làng Sen,Nam Đàn,Nghệ An', correct: false },
-      { text: 'Làng Sen,Kim Liên,Nghệ An', correct:false  },
-      { text: 'Kim Liên,Nam Đàn,Nghệ AN', correct: false }
+      { text: 'Trung Quốc', correct:true  },
+      { text: 'Đức', correct: false },
+      { text: 'Mông Cổ', correct:false  },
+      { text: 'Triều Tiên', correct: false }
     ]
   },
   {
-    question: 'Ai là cha đẻ của khẩu súng AK-47 ?',
+    question: 'Hội nghị Ianta được triệu tập vào thời điểm nào của cuộc Chiến tranh thế giới thứ hai (1939 – 1945)?',
     answers: [
-      { text: 'Daniel Leavitt', correct: false },
-      { text: 'Samuel Colt', correct: false },
-      { text: 'Robert Adams', correct: false },
-      { text: 'Mikhail Timofeyevich Kalashnikov', correct: true }
+      { text: 'Chiến tranh thế giới thứ hai đã kết thúc', correct: false },
+      { text: 'Chiến tranh thế giới thứ hai bùng nổ', correct: false },
+      { text: 'Chiến tranh thế giới thứ hai bước vào giai đoạn ác liệt', correct: false },
+      { text: 'Chiến tranh thế giới thứ hai bước vào giai đoạn kết thúc.', correct: true }
     ]
   },
   {
-    question: 'Bóng đèn được phát minh vào năm nào ?',
+    question: 'Hội nghị Ianta (1945) có sự tham gia của các nước nào?',
     answers: [
-      { text: '1879', correct: true},
-      { text: '1897', correct: false }
+      { text: 'Anh, Mỹ, Liên Xô', correct: true},
+      { text: 'Anh, Pháp, Mỹ', correct: false },
+      { text: 'Anh, Pháp, Đức', correct: false},
+      { text:'Mỹ, Liên Xô, Trung Quốc', correct: false}
     ]
   }
 ]
